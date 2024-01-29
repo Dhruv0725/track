@@ -1,0 +1,31 @@
+p {
+  text-align: center;
+  padding-top: 2rem;
+  color: rgb(40, 182, 238);
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+hr {
+  width: 90%;
+  border-width: 10px;
+  border-style: inset;
+}
+
+img {
+  position: relative;
+  left: 50%;
+  top: 2%;
+  width: 15rem;
+}
+
+.formelements {
+  margin-top: 4rem;
+}
+.formelements input {
+  margin-bottom: 2rem;
+}
+
+.submitbutton {
+  margin-bottom: 3rem;
+}

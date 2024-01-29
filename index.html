@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>PatternFly</title>
+    <link rel="icon" type="image/x-icon" href="./images/webpage/link.png" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="heading">
+      <img
+        src="images/login/icon.svg"
+        alt="Heading icon"
+        class="heading-image"
+      />
+      <p class="heading-style">PATTERNFLY</p>
+    </div>
+
+    <div class="placeholder">
+      <p>
+        This is placeholder text, only. Use this area to place any information
+        or introductory message about your application that may be relevant for
+        users.
+      </p>
+    </div>
+
+    <div class="form-container">
+      <form action="/submit" method="get">
+        <select name="lang-select" id="lang-select">
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+        </select>
+
+        <div class="login-message"><p>Log In to Your Account</p></div>
+        <input
+          type="text"
+          class="inputs"
+          placeholder="Email or phone or username "
+          id="user"
+        />
+        <input type="text" class="inputs" placeholder="Password" id="pass" />
+        <div class="loginperm">
+          <input type="checkbox" id="checkbox" />
+          <label for="checkBox" id="loggedIn"
+            >Keep me logged in for 30 days</label
+          >
+        </div>
+        <a href="" id="forgotButton">Forgot Password?</a><br />
+        <input type="submit" value="Log In" class="login-button" />
+
+        <div class="needExtra">
+          <p class="needAccount">Need an Account?</p>
+
+          <a href="signup.html" class="signup">Sign Up</a>
+        </div>
+      </form>
+    </div>
+
+    <footer id="footer">
+      <p>Terms of Use • Help • Privacy Policy</p>
+    </footer>
+  </body>
+</html>
